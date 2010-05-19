@@ -91,7 +91,7 @@
 
 - (BOOL)evaluate:(id)value
 {
-	return ![value isEqualTo:testValue];
+	return ![value isEqual:testValue];
 }
 
 @end

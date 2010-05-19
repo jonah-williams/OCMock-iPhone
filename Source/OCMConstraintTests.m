@@ -69,7 +69,7 @@
 - (BOOL)checkArg:(id)theArg withValue:(id)value
 {
 	didCallCustomConstraint = YES;
-	return [theArg isEqualTo:value];
+	return [theArg isEqual:value];
 }
 
 - (void)testUsesMethodWithValue
