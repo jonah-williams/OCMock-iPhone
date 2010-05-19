@@ -94,7 +94,7 @@
 }
 
 
-#ifdef MAC_OS_X_VERSION_10_6
+#if NS_BLOCKS_AVAILABLE
 
 -(void)testUsesBlock
 {
